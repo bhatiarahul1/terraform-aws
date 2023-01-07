@@ -25,7 +25,7 @@ resource "aws_security_group" "devops-bastion-sg" {
     from_port = 0
     protocol  = "-1"
     to_port   = 0
-    cidr_blocks = [0.0.0.0/0]
+    cidr_blocks = ["0.0.0.0/0"]
   }
   ingress {
     from_port = 22
@@ -43,7 +43,7 @@ resource "aws_security_group" "devops-prod-sg" {
     from_port = 0
     protocol  = "-1"
     to_port   = 0
-    cidr_blocks = [0.0.0.0/0]
+    cidr_blocks = ["0.0.0.0/0"]
   }
   ingress {
     from_port = 22
@@ -62,7 +62,7 @@ resource "aws_security_group" "devops-backend-sg" {
     from_port = 0
     protocol  = "-1"
     to_port   = 0
-    cidr_blocks = [0.0.0.0/0]
+    cidr_blocks = ["0.0.0.0/0"]
   }
   ingress {
     from_port = 0
