@@ -72,25 +72,25 @@ variable "vpccidr" {
 }
 
 variable "pubsub1cidr" {
-  default = "171.21.1.0/24"
+  default = "172.21.1.0/24"
 }
 
 variable "pubsub2cidr" {
-  default = "171.21.2.0/24"
+  default = "172.21.2.0/24"
 }
 
 variable "pubsub3cidr" {
-  default = "171.21.3.0/24"
+  default = "172.21.3.0/24"
 }
 
 variable "privsub1cidr" {
-  default = "171.21.4.0/24"
+  default = "172.21.4.0/24"
 }
 
 variable "privsub2cidr" {
-  default = "171.21.5.0/24"
+  default = "172.21.5.0/24"
 }
 
 variable "privsub3cidr" {
-  default = "171.21.6.0/24"
+  default = "172.21.6.0/24"
 }
